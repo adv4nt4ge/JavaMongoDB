@@ -1,0 +1,16 @@
+group 'JavaMongoDB'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.mongodb', name: 'mongo-java-driver', version: '3.5.0'
+    testCompile group: 'org.testng', name: 'testng', version: '6.11'
+
+}
